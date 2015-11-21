@@ -30,10 +30,10 @@ public class CustomerBean implements Comparable<CustomerBean>{
 	 * @param latitude
 	 * @param longitude
 	 */
-	public CustomerBean (Long customerId, String custumerName, String latitude, String longitude)
+	public CustomerBean (Long customerId, String customerName, String latitude, String longitude)
 	{
 		this.customerId = customerId;
-		this.customerName =  custumerName;
+		this.customerName =  customerName;
 		this.latitude = Double.valueOf(latitude);
 		this.longitude = Double.valueOf(longitude);
 	}
