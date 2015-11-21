@@ -14,7 +14,7 @@ public class CustomerBean implements Comparable<CustomerBean>{
 	/**
 	 * 
 	 */
-	private String custumerName;
+	private String customerName;
 	/**
 	 * 
 	 */
@@ -33,7 +33,7 @@ public class CustomerBean implements Comparable<CustomerBean>{
 	public CustomerBean (Long customerId, String custumerName, String latitude, String longitude)
 	{
 		this.customerId = customerId;
-		this.custumerName =  custumerName;
+		this.customerName =  custumerName;
 		this.latitude = Double.valueOf(latitude);
 		this.longitude = Double.valueOf(longitude);
 	}
@@ -54,13 +54,13 @@ public class CustomerBean implements Comparable<CustomerBean>{
 	 * @return custumerName
 	 */
 	public String getCustumerName() {
-		return custumerName;
+		return customerName;
 	}
 	/**
 	 * @param custumerName
 	 */
 	public void setCustumerName(String custumerName) {
-		this.custumerName = custumerName;
+		this.customerName = custumerName;
 	}
 	/**
 	 * @return latitude
